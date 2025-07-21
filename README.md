@@ -4,7 +4,7 @@ DESCRIPTION:- Build a web page that fetches weather data from a weather API base
 
 Features:
 - Input field to enter a city name and search for weather data.
-- Displays current date, time, and location (e.g., Dhemaji, India, Monday, Jul 21, 2025, 11:06 PM IST).
+- Displays current date, time, and location (e.g., Guwahati, India, Monday, Jul 21, 2025, 11:17 PM IST).
 - Shows current weather condition (e.g., overcast clouds) with an icon.
 - Displays temperature (e.g., 28°C) and additional details like wind speed, humidity, and visibility.
 - Modern and responsive design with a gradient background.
@@ -25,6 +25,8 @@ Display:
 
 SCREENSHOT OF THE WEBSITE:-
 
-![image alt]
+![image alt](https://github.com/Bidyut398/PRODIGY_WD_05/blob/671e3986a683f1d11c5ad8d0cac0037faf47e8ea/Screenshot%202025-07-21%20231712.png)
+
+![image alt]()
 
 
