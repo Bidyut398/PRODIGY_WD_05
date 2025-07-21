@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(198, 55%, 36%); /* Earthy green tone for Assam theme */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-app {
+    background: linear-gradient(135deg, #4a90e2, #50c9c3); /* Gradient for vibrancy */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+.weather-app:hover {
+    transform: scale(1.02); /* Slight zoom on hover for interactivity */
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #50c9c3;
+    border-radius: 15px;
+    font-size: 1rem;
+    height: 3.5rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #4a90e2;
+}
+
+.search-btn {
+    background-color: #4a90e2;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: black;
+}
+
+.city-date-section {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #050000;
+}
+
+.city-date-section .city {
+    font-size: 2.5rem;
+    opacity: 0.9;
+    text-transform: capitalize;
+}
+
+.city-date-section .date {
+    background-color: rgba(37, 14, 85, 0.1);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.temperature-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+.temperature-info .temp {
+    font-size: 6rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.temperature-info .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.temperature-info .description i {
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+.additional-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wind-info,
+.humidity-info,
+.visibility-info {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.wind-info:hover,
+.humidity-info:hover,
+.visibility-info:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.additional-info .material-icons {
+    font-size: 2.5rem;
+    opacity: 0.9;
+    color: black;
+}
+
+.wind-info div,
+.humidity-info div,
+.visibility-info div {
+    text-align: center;
+    color:black;
+}
+
+.wind-info h3,
+.humidity-info h3,
+.visibility-info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.wind-info p,
+.humidity-info p,
+.visibility-info p {
+    font-size: 1rem;
+    opacity: 0.7;
+}
